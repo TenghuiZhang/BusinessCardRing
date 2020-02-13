@@ -1,0 +1,22 @@
+mysql -u root -p;
+use ring;
+
+show tables;
+
+delete from user_info;
+
+select *  from  user_info;
+
+AT+CWMODE=3
+AT+CWJAP="gezhi","gezhizhongxue"
+AT+CIPSTART="TCP","192.168.1.134",9999  ||AT+CIPSTART="TCP","10.0.0.7",12345
+AT+CIPMODE=1
+AT+CIPSEND
+
+1000 YuZhiWei MALE MFE 15558018005 Embeded
+1000 QianKun MALE MFE 15958104621 Smile
+1000 PPJ MALE SJ 15958104611 Dou
+1000 ChenFeng MALE MFE 13732202736 Teacher
+1000 ZhangBin MALE DH 18868877082 Head
+1000 ZhaoYaNan MALE HDU 18668413785 Server
+1000 WangJunDi MALE MFE 17701845913 Paper
