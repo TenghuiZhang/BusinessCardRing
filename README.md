@@ -5,7 +5,7 @@ I am Tenghui Zhang, this is my product of a business card exchange system. The p
 
 If you want to see how the product works, please go to the https://youtu.be/F6YNxm4p_R4 or visit my personal website: tenghuizhang.com
 
-以下是Python 文件一些操作的注意事项：
+以下是实际调试时的一些操作注意事项：
 首先，我们需要知道本地服务器的IP：1.Arduino控制端需要根据IP、无线网来初始化；2.APP需要IP来初始化。
 
 接下来，Arduino部分：
