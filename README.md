@@ -1,4 +1,10 @@
 # BusinessCardRing
+Hello, everyone!
+
+I am Tenghui Zhang, this is my product of a business card exchange system. The purpose of this project is that people can exchange their name card by shaking their hands and the Arduino will collect the signal and upload the business card information to the cloud by Python.
+
+If you want to see how the product works, please go to the https://youtu.be/F6YNxm4p_R4 or visit my personal website: tenghuizhang.com
+
 首先，我们需要知道本地服务器的IP：1.Arduino控制端需要根据IP、无线网来初始化；2.APP需要IP来初始化。
 
 接下来，Arduino部分：
